@@ -56,25 +56,25 @@
 //        break;
 //        }
 // }
-let num=100;
-while(num >= 0){
-    console.log(num);
-    num--;
-    if(num <= 20){
-        break;
-    }
-}
-
-// for(let i=1; i<=20; i++){
- 
-//     if(i%2!==0){
-//         continue;
+// let num=100;
+// while(num >= 0){
+//     console.log(num);
+//     num--;
+//     if(num <= 20){
+//         break;
 //     }
-//     if(i>=10){
-//       break;
-//     }
-//     console.log(i);
 // }
+
+for(let i=1; i<=20; i++){
+ 
+    if(i%2!==0){
+        continue;
+    }
+    if(i>=10){
+      break;
+    }
+    console.log(i);
+}
 
 // let n=1;
 // while(n<=20){
@@ -83,4 +83,26 @@ while(num >= 0){
 //     if(n%5!==0){
 //         continue;
 //     }
+// }
+
+
+for(let i=1; i<=20; i++){
+   
+    if(i%2!==0){
+        continue;
+    }
+    if(i>=10){
+        break;
+    }
+    console.log(i);
+    
+}
+
+// let num = 1;
+// while(num <=20){
+//     console.log(num);
+//     if(num >= 10){
+//         break;
+//     }
+//     num++;
 // }
