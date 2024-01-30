@@ -1,18 +1,25 @@
-body{
-    position: relative;
-    background-color: cornflowerblue;
+.nahida{
+    background-image:url(./photo.jpg) ;
+width:21% ;
+position:absolute ;
+padding: 80px;
+top:200px ;
+left:300px ;
+border:2px solid red ;
+background-repeat:no-repeat ;
+background-position: left center  ;
+
+box-shadow:4px 4px 7px black ;
+color: white;
 }
-.t2{
-    background-image: url(./nature-3082832_640.jpg);
-    background-position: left center;
-    background-repeat: no-repeat;
-    color: aliceblue;
-    width: 20%;
-    padding: 70px;
-    position: absolute;
-    top: 200px;
-    left: 300px;
-    border: 2px solid red;
-    box-shadow: 4px 4px 7px #fdfdfd;
-    text-align: center;
+.hr{
+    width:50% ;
+
+}
+
+
+body{
+    
+position: relative;
+background-color: darkgray;
 }
